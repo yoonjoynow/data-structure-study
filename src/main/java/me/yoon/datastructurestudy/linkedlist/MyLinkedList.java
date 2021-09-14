@@ -1,6 +1,7 @@
 package me.yoon.datastructurestudy.linkedlist;
 
 import java.util.NoSuchElementException;
+import java.util.Stack;
 
 public class MyLinkedList {
 
