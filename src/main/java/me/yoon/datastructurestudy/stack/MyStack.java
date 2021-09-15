@@ -42,6 +42,8 @@ public class MyStack<E> implements Stack<E>{
     private E elementAt(int index) {
         if (index >= size)
             throw new IndexOutOfBoundsException();
+
+        return null;
     }
 
     @Override
