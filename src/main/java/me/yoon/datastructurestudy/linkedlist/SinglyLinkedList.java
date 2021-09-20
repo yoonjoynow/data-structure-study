@@ -57,6 +57,8 @@ public class SinglyLinkedList<T> {
 
         if (index == 0) {
             linkFirst(data);
+        } else if (index == (size - 1)){
+            linkLast(data);
         } else {
             linkAt(index, data);
         }
